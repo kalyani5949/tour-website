@@ -1,0 +1,41 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.container{
+    position:absolute;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    left:100px;
+    right:100px;
+}
+.images{
+    border:2px;
+    float:left;
+}
+nav{
+    background-color: aqua;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0px auto;
+    width:100%
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    justify-content:space-between;
+    align-items: center;
+    width:50%;
+    cursor:pointer;
+}
+nav li:hover
+{
+    color:rgb(189, 55, 7);
+    scale:1;
+}
+h2,p{
+padding-left: 50px;
+}
